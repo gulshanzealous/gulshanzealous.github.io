@@ -42,3 +42,18 @@ a{
 	height: auto;
 	border-radius: 0px 100px;
 }
+
+@media only screen and (max-width : 900px) {
+	.skills{
+		grid-row: 7/8 ;
+		grid-column: 4/9;
+		font-size:2em;
+	}
+
+
+	#photo-me{
+		width: 100%;
+		height: auto;
+		border-radius: 0px 50px;
+	}
+}
