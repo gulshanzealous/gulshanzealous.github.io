@@ -1,0 +1,133 @@
+
+#blog-wrapper{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.blog-topbar{
+    width:100%;
+    min-height: 70px;
+    background-color: #000;
+    color: #fff;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-menu{
+    font-size:1.1em;
+    cursor: pointer;
+    padding:10px 20px 10px 50px;
+    display: flex;
+    align-items: center;
+
+}
+.blog-home-back{
+    font-size:1.1em;
+    cursor: pointer;
+    padding:10px 50px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.blog-menu{
+
+}
+
+.blog-menu-categories{
+    cursor: pointer;
+    padding:5px 20px 5px 20px;  
+    display: flex;
+    align-items: center;  
+    border-radius: 20px;
+    /* background-color: rgb(19, 18, 18); */
+}
+
+
+.blog-sidebar{
+    position: fixed;
+    margin-top:70px;
+    width: 20%;
+    height:100vh;
+    background-color: #000;
+    color: white;
+    animation-name: sidebar-width;
+    animation-duration: 200ms;
+    z-index: 150;
+    overflow-y: scroll;
+}
+
+
+@keyframes sidebar-width {
+    0%   {width:0}
+    25%  {width:10%}
+    50%  {width:14%}
+    75% {width:19%}
+    100% {width:20%}
+}
+
+
+
+.blog-sidebar-item{
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-sidebar-item:hover{
+    background-color: #111;
+}
+
+.blog-section{
+}
+
+.blog-main-container{
+    width: 100%;
+    /* margin-top:40px; */
+    
+}
+
+
+@media only screen and (max-width : 900px) {
+    .blog-menu{
+        font-size: 1em;
+        padding:10px 10px 10px 10px;
+    }
+    .blog-home-back{
+        padding:20px 20px 20px 20px;
+        text-transform: uppercase;
+        font-size: 0.9em;
+    }
+    .blog-sidebar{
+        width:70%;
+        animation-name: sidebar-width-mobile;
+        margin-top:70px;
+    }
+    .blog-sidebar-item{
+        height: 40px;
+        font-size:1.2em;
+    }        
+
+    @keyframes sidebar-width-mobile {
+        0%   {width:0%}
+        25%  {width:20%}
+        50%  {width:40%}
+        75% {width:60%}
+        100% {width:70%}
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+

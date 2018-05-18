@@ -1,15 +1,19 @@
 import React from 'react'
 import {HashRouter, Switch, Route} from 'react-router-dom'
-import {Home} from './pages'
+import {Home, Blog, Contact, WritePost} from './pages'
 
 const Routes = () => {
     return(
         <HashRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route path="/blog" component={Blog} />
+                <Route exact path='/contact' component={Contact} />
             </Switch>
         </HashRouter>
     )
 }
 
 export default Routes
+
+                // <Route exact path='/write-post' component={WritePost} />
