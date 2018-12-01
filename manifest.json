@@ -1,15 +1,9 @@
 {
-  "short_name": "Gulshan's blog",
-  "name": "Gulshan Sharma",
-  "icons": [
-    {
-      // "src": "favicon.ico",
-      // "sizes": "64x64 32x32 24x24 16x16",
-      // "type": "image/x-icon"
-    }
-  ],
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/avatar.jpg": "static/avatar-c99035c8ff4376bb578c17e597c4baed.jpg",
+  "static/goLogo.png": "static/goLogo-0da8872e1ca3e247aef7f75f64a75a5f.png",
+  "static/picture.jpg": "static/picture-d3dfe6e01c46ac82ef902d1dfe078c9a.jpg",
+  "static/reduxLogo.png": "static/reduxLogo-f18023dce4a1ce45b2f977f9b7598404.png",
+  "static/tsLogo.png": "static/tsLogo-26cc95f255ccb936d154b43614f61602.png"
 }
