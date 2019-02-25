@@ -6,3 +6,5 @@ export * from './blog'
 export * from './contact'
 
 export * from './write-post'
+
+export * from './privacy'
