@@ -15,3 +15,5 @@ exclude:
 collections:
   categories:
     output: true
+
+future: true
