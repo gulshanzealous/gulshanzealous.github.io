@@ -1,0 +1,10 @@
+---
+next_post_id: 2
+next_category_id: 3
+categories:
+- id: c-1
+  name: tech
+  status: active
+- id: c-2
+  name: philosophy
+  status: active

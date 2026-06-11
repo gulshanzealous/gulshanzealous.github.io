@@ -1,0 +1,17 @@
+title: Gulshan Zealous
+description: Software, systems, ideas.
+
+markdown: kramdown
+
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  categories:
+    output: true
