@@ -3,7 +3,10 @@ layout: default
 title: Home
 ---
 
-{% assign posts = site.posts | where_exp: "post", "post.status == 'published' and post.category == 'tech'" %}
+{% assign posts = site.posts
+  | where: "status", "published"
+  | where: "category", "tech"
+%}
 
 {% for post in posts %}
 
