@@ -1,19 +1,6 @@
-# Gulshan Zealous Blog
+# Blog
 
 A minimal, dark, mobile-friendly blog built with Jekyll and hosted on GitHub Pages.
-
-## Features
-
-- Black background
-- White text
-- Mobile friendly
-- Markdown posts
-- Categories
-- Dynamic tags
-- Draft / Published / Archived posts
-- Reading time
-- Analytics support
-- GitHub Pages deployment
 
 ## Local Development
 
