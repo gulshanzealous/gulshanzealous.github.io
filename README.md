@@ -15,7 +15,7 @@ Run locally:
 ```bash
 cd docs
 
-bundle exec jekyll serve
+bundle exec jekyll serve --config docs/_config.yml -- source docs
 ```
 
 Open:
