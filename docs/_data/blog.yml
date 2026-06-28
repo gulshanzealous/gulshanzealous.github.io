@@ -1,10 +1,16 @@
 ---
-next_post_id: 3 
-next_category_id: 3
+next_post_id: 5
+next_category_id: 5
 categories:
 - id: c-1
   name: tech
   status: active
 - id: c-2
   name: philosophy
+  status: active
+- id: c-3
+  name: cs-scribbles
+  status: active
+- id: c-4
+  name: projects
   status: active
